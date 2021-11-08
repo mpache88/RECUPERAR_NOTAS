@@ -1,0 +1,45 @@
+[ {
+        "ifindex": 1,
+        "ifname": "lo",
+        "flags": [ "LOOPBACK","UP","LOWER_UP" ],
+        "link_type": "loopback",
+        "address": "00:00:00:00:00:00",
+        "broadcast": "00:00:00:00:00:00",
+        "addr_info": [ {
+                "family": "inet",
+                "local": "127.0.0.1",
+                "prefixlen": 8,
+                "scope": "host",
+                "label": "lo"
+            } ]
+    },{
+        "ifindex": 2,
+        "ifname": "eth0",
+        "flags": [ "BROADCAST","MULTICAST","UP","LOWER_UP" ],
+        "link_type": "ether",
+        "address": "00:11:dd:55:7a:02",
+        "broadcast": "ff:ff:ff:ff:ff:ff",
+        "addr_info": [ {
+                "family": "inet",
+                "local": "192.168.94.45",
+                "prefixlen": 22,
+                "broadcast": "192.168.97.255",
+                "scope": "global",
+                "label": "eth0"
+            } ]
+    },{
+        "ifindex": 3,
+        "ifname": "eth1",
+        "flags": [ "BROADCAST","MULTICAST","UP","LOWER_UP" ],
+        "link_type": "ether",
+        "address": "00:a2:22:de:54:77",
+        "broadcast": "ff:ff:ff:ff:ff:ff",
+        "addr_info": [ {
+                "family": "inet",
+                "local": "10.54.136.164",
+                "prefixlen": 24,
+                "broadcast": "10.54.136.255",
+                "scope": "global",
+                "label": "eth1"
+            } ]
+} ]
